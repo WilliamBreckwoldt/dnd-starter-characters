@@ -1,0 +1,19 @@
+# For working in jupyter notebook
+ipykernel           # jupyter not included as I run things in VS Code ¯\_(ツ)_/¯
+
+# For parsing your content files
+python-frontmatter  # Splits the Markdown/YAML content
+pyyaml              # General YAML parsing
+
+# For templating and math
+jinja2              # Injects your char variables into the text
+simpleeval          # Safe alternative to eval() for your formulas
+
+# For Document Assembly
+markdown            # Converts your .md text to HTML
+# beautifulsoup4      # (Optional) Helps you clean/manipulate HTML before PDF generation
+
+# For PDF Generation
+weasyprint          # The heavy lifter: turns HTML + CSS into high-quality PDFs
+
+dnd2024-character-json @ git+https://github.com/WilliamBreckwoldt/dnd2024-character-json.git #Forked from TheBigS
