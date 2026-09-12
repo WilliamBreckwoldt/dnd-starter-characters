@@ -1,1 +1,6 @@
 /.venv
+
+# Ship with SRD and Homebrew data only
+/data/**/*.md
+!/data/**/*.srd.md
+!/data/**/*.hb.md
